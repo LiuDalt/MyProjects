@@ -5,11 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.admin.myanimation.MainActivity">
+    tools:context="com.example.admin.myanimation.activity.MainActivity">
     <Button
+        android:textAllCaps="false"
         android:id="@+id/tween_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tween动画"/>
-
+        android:text="Tween（补间）动画"/>
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/frame_anim"
+        android:text="Drawable（帧）动画"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
